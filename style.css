@@ -1,0 +1,183 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    line-height: 1.4;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
+img{
+    width: 100%;
+}
+.row{
+    display: grid;
+    min-height: 100vh;
+   justify-content: center;
+   align-items: center;
+   grid-gap: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    
+   color: red;
+   font-weight: bold;
+  
+}
+
+.footer{
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+.plate{
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 21rem;
+    /* margin: 1rem; */
+  
+  align-items: center;
+  
+    text-align: center;
+}
+
+.head1{
+    clip-path: polygon(50% 0%, 100% 0, 100% 80%, 51% 100%, 0 80%, 0 0);
+  background: url(./img/markus-spiske-qhgtBITGZeI-unsplash.jpg);
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 250px;
+   width: 100%;
+   background-color: aqua;
+   position: relative;
+}
+.head2{
+    clip-path: polygon(50% 0%, 100% 0, 100% 80%, 51% 100%, 0 80%, 0 0);
+  background: url(./img/hanvin-cheong-0QxyhlZ3XzE-unsplash.jpg);
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 250px;
+   width: 100%;
+   background-color: aqua;
+   position: relative;
+}
+.head3{
+    clip-path: polygon(50% 0%, 100% 0, 100% 80%, 51% 100%, 0 80%, 0 0);
+  background: url(./img/markus-spiske-IIVeBAxrNX0-unsplash.jpg);
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 250px;
+   width: 100%;
+   background-color: aqua;
+   position: relative;
+}
+.head4{
+    clip-path: polygon(50% 0%, 100% 0, 100% 80%, 51% 100%, 0 80%, 0 0);
+  background: url(./img/markus-spiske-kbqCbJBPQdI-unsplash.jpg);
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 250px;
+   width: 100%;
+   background-color: aqua;
+   position: relative;
+}
+.head5{
+    clip-path: polygon(50% 0%, 100% 0, 100% 80%, 51% 100%, 0 80%, 0 0);
+  background: url(./img/hanvin-cheong-0QxyhlZ3XzE-unsplash.jpg);
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 250px;
+   width: 100%;
+   background-color: aqua;
+   position: relative;
+}
+.head6{
+    clip-path: polygon(50% 0%, 100% 0, 100% 80%, 51% 100%, 0 80%, 0 0);
+  background: url(./img/studio-blackthorns-ILFSnqjMlGM-unsplash.jpg);
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 250px;
+   width: 100%;
+   background-color: aqua;
+   position: relative;
+}
+
+.price{
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: .2rem 1rem;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.body{
+    margin: 2rem 0;
+    padding: 0rem 1rem;
+}
+.title{
+    padding: .5rem 0;
+}
+
+.sub-title{
+    padding-bottom: .5rem;
+}
+.hero{
+    height: 400px;
+    background-color: red;
+    position: relative;
+    margin-bottom: 7rem;
+}
+.pop{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    z-index: 1;
+}
+.line{
+    height: 1px;
+    width: 90%;
+    background-color: #eee;
+}
+.head1:hover{
+    background-color: red;
+}
+/* ---------- media ---------- */
+@media  (min-width:650px) {
+   .row{
+       grid-template-columns: repeat(2, 1fr);
+   }
+}
+@media  (min-width:760px) {
+   .row{
+       grid-template-columns: repeat(3, 1fr);
+       margin: 0 1rem;
+   }
+}
